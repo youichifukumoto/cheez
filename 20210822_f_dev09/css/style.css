@@ -1,0 +1,409 @@
+
+/*全体共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+/*パディングをサイズ内側にする処理*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* コンテンツ部分の共通指定 
+-------------------*/
+.container {
+	max-width: 1365px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.text__content {
+	margin: 64px 0 ;
+	line-height: 2.5;
+	text-align: center;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+/* メインタイトルビッグ画像 
+-------------------*/
+
+.mainbg {
+	position: relative;
+}
+
+.mainbg_photo {
+	width: 100%;
+	height: auto;
+
+}
+
+.mainbg_title {
+	width: 960px;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 48px;
+	margin: 0 0 40px;
+}
+.mainbg_title p {
+	font-size: 36px;
+}
+
+/*nav
+---------------------  */
+.header_nav {
+	border: 2px solid #efefef;
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+.rogo {
+	width: 45%;
+}
+
+.rogo img {
+	width: 30%;
+	margin-left: 20%;
+}
+
+.nav {
+	width: 55%;	
+
+}
+
+.nav_list {
+	display: flex;
+}
+
+.nav_item {
+	margin-left: 60px;
+	font-size: 21px;
+	text-transform: uppercase;
+}
+
+
+/*page1 ABOUT 
+--------------------------------*/
+.ABOUT_text {
+	margin: 120px 0 80px 0;
+}
+
+.ABOUT_text h2{
+	color: #ffd61a;
+	font-size: 0cm24px;
+	margin: 0 0 24px;
+}
+
+.ABOUT_text h3{
+	margin: 0 0 64px;
+}
+
+.ABOUT_text p {
+	margin: 0 0 40px;
+}
+
+/* 4枚連結の写真 
+----------------------*/
+.bottom_photo {
+	max-width: 100%;
+	height: auto;
+}
+
+/* page2 COURSE
+------------------------------ */
+
+ /* 写真エリア３枚共通 
+----------------------*/
+.images img {
+	width: 100%;
+}
+
+.images {
+	/* width: 682.5px; */
+	width: 50%;
+	height: auto;
+}
+/* テキストエリア右側２個共通
+---------------------- */
+.text_erea {
+	/* width: 682.5px; */
+	width: 50%;
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+/* テキストエリア左側１個のみ
+----------------------- */
+.text_erea_left {
+	/* width: 682.5px; */
+	width: 50%;
+	height: auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	
+}
+/* テキストエリア内のボックス右側２個共通 */
+.image_text {
+	width: 480px;
+	height: auto;
+	margin-left: 48px;	
+
+}
+/* 
+テキストエリア内のボックス左側１個のみ */
+.image_text_left {
+	width: 480px;
+	height: auto;
+}
+
+.list {
+	display: flex;
+}
+
+/* 
+右側テキストの２枚の見出しタイトル */
+.image_text h2 {
+	margin-bottom: 40px;
+	font-size: 24px;
+	color: #222;;
+}
+
+/* 
+左側テキストの１枚の見出しタイトル */
+.image_text_left h2 {
+	margin-bottom: 40px;
+}
+
+/*page3 NEWS
+----------------------------------*/
+
+.NEWS_title h2 {
+	color: #ffd61a;
+	text-transform: uppercase;
+}
+
+.NEWS_title {
+	padding: 64px 0 64px;
+	text-align: center;
+	line-height: 3;
+}
+
+/* 三枚の横並びピザ
+----------------------*/
+
+.NEWS_text {
+	width: 300px;
+	font-size: 88%;
+}
+
+.day {
+	padding-bottom: 24px;
+	padding-top: 32px;
+}
+
+.NEWS_contant ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* More ボタン
+--------------------*/
+.btn {
+	display: inline-block;
+	background-color: #ffd61a;
+	color: #fff;
+	font-size: 21px;
+	width: 300px;
+	height: 60px;
+	display: flex;
+	align-items:center ;
+	justify-content: center;
+	margin: 56px auto 48px;
+}
+
+.NEWS_btn {
+	text-align: center;
+}
+ 
+/*page4 ACCESS
+---------------------------------*/
+.Access {
+	background-color: #fafafa;
+	padding: 64px 0 80px;
+}
+
+.Access_title {
+	line-height: 3;
+	margin-bottom: 64px;
+	text-align: center;
+}
+
+.Access_warpper {
+	width: 623px;
+	margin: 0 auto;
+}
+
+.google_map {
+	text-align: center;
+}
+
+
+.Access_info {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 64px;
+}
+
+.info_title {
+	width: 100px;
+	margin-right: 48px;
+}
+
+.info_item {
+	width: 475px;
+	margin-bottom: 24px;
+}
+
+
+/*page5 CONTACT
+--------------------------------*/
+.form_wrapper {
+	width: 624.33px;
+	margin: auto;
+}
+
+.caution {
+	margin: 32px 0 0;
+}
+
+.form_wrapper p {
+	text-align: center;
+}
+
+/* form
+------------------- */
+
+.form_inner{ 
+	display: flex;
+	flex-wrap: wrap;
+	margin: 80px 0 40px;
+}
+
+.form_title {
+	width: 120px;
+	margin: 0 120px 0 0;
+}
+
+.form_item {
+	width: 384.33px;
+	height: 36px;
+	font-size: 14px;
+	margin: 0 0 24px;
+}
+
+.form_parts {
+	border: 1px solid #bfbfbf;
+	width: 328px;
+	height: 36px;
+	font-size: 1.1rem;	
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+
+/*checkbox  
+---------------------------*/
+ 
+input[type*="checkbox"]{
+	margin-right: 40px;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	width: 24px;
+	height: 24px;
+	border: solid 1px #f0ebe5;
+	border-radius: 20%;
+	vertical-align: -6px;
+}
+
+input[type*="checkbox"]:checked{
+	background-color: #f0ebe5;
+}
+
+/* 詳細
+---------------------------- */
+
+.form_inner textarea {
+	margin-top: 8px;
+	width: 328px;
+	height: 108px;
+	border: #bfbfbf solid 1px;
+}
+
+/* 送信ボタン
+----------------------------- */
+.btn-submit {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: none;
+
+}
+.submit {
+	margin-bottom: 200px;
+}
+/* footer
+----------------------------- */
+footer {
+	background-color:  #707070;
+	padding: 32px 0;
+	text-align: center;
+}
+/* footer 戻るボタン */
+.footer .wrapper {
+	position: relative;
+}
+
+.btn-pagetop {
+	position: absolute;
+	top: -92px;
+	right: 0;
+	display: block;
+	width: 60px;
+	height: 60px;
+	background-color: #707070;
+}
+
+.copyrights {
+	color: #fff;
+	font-size: 18px;
+}
